@@ -1,79 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Mandilakhe Brian Speelman - Personal Portfolio</title>
+    <title>Basic HTML Page</title>
 </head>
 <body>
     <header>
-        <h1>Mandilakhe Brian Speelman</h1>
-        <p>Software Developer | Problem Solver | Tech Innovator</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <main>
+        <article>
+            <h1>Main Heading</h1>
+            <p>This is the first paragraph of my webpage. It contains some basic text to demonstrate how paragraphs work in HTML.</p>
+            
+            <h2>Secondary Heading</h2>
+            <p>Here's another paragraph with more content. The text wraps automatically in the browser window as you resize it.</p>
+            
+            <h3>Tertiary Heading</h3>
+            <p>This third paragraph shows how different heading levels create a visual hierarchy on the page.</p>
+            
+            <h2>Another Section</h2>
+            <p>The fourth and final paragraph completes our basic page structure. Now we'll add an image below.</p>
+            
+            <a href="https://www.alxafrica.com" target="_blank">
+                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
+            </a>
 
-    <section id="introduction">
-        <h2>Introduction</h2>
-        <p>Hello! I'm Mandilakhe Brian Speelman, a passionate software developer with expertise in web development and problem-solving. I create efficient, scalable solutions that deliver exceptional user experiences.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        
-        <article class="project">
-            <h3>E-Commerce Platform</h3>
-            <p>A complete online shopping solution with product management, cart functionality, and secure checkout.</p>
-            <a href="https://github.com/mandilakhe/ecommerce-platform" target="_blank">View Project</a>
+            <!-- Learners Table Added Here -->
+            <h2>Our ALX Learners</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>28</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Michael</td>
+                        <td>32</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <td>Sophia</td>
+                        <td>21</td>
+                        <td>UK</td>
+                    </tr>
+                </tbody>
+            </table>
         </article>
-        
-        <article class="project">
-            <h3>Task Management System</h3>
-            <p>A productivity application for organizing daily tasks with team collaboration features.</p>
-            <a href="https://github.com/mandilakhe/task-system" target="_blank">View Project</a>
-        </article>
-        
-        <article class="project">
-            <h3>Weather Application</h3>
-            <p>Real-time weather forecasting app with location-based services.</p>
-            <a href="https://github.com/mandilakhe/weather-app" target="_blank">View Project</a>
-        </article>
-    </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a dedicated software developer with experience in building modern web applications.</p>
-        
-        <h3>Technical Skills</h3>
-        <ul>
-            <li>Frontend: HTML5, CSS3, JavaScript, React</li>
-            <li>Backend: Node.js, Express, Python</li>
-            <li>Databases: MongoDB, MySQL</li>
-            <li>Tools: Git, Docker, AWS</li>
-        </ul>
-        
-        <h3>Interests</h3>
-        <p>When I'm not coding, I enjoy learning new technologies, contributing to open source, and mentoring aspiring developers.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Get in touch with me:</p>
-        <ul>
-            <li>Email: <a href="mailto:mandilakhe@example.com">mandilakhe@example.com</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/mandilakhe-speelman" target="_blank">linkedin.com/in/mandilakhe-speelman</a></li>
-            <li>GitHub: <a href="https://github.com/mandilakhe" target="_blank">github.com/mandilakhe</a></li>
-        </ul>
-    </section>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Mandilakhe Brian Speelman. All rights reserved.</p>
+        <p>Made by Your Name - <a href="https://www.alxafrica.com" target="_blank">here</a></p>
     </footer>
 </body>
 </html>
